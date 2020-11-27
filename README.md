@@ -1,6 +1,6 @@
 # DOCKER PORTAINER
 
-![/images/1.jpg](/images/1.jpg)
+![/images/1.jpg](/images/2)
 
 Portainer is a lightweight management UI which allows you to easily manage your Docker host or Swarm cluster.
 
