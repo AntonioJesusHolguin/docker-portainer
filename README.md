@@ -52,8 +52,53 @@ Once we are in we will be able to create our admin account:
 
 ![/images/4](/images/4)
 
+Now let's select which environment we want to maange, in this case we will choose Docker:
+
+![/images/5](/images/5)
+
+Well done! Here we'll be able to easily work with Docker using Portainer. In the left list we can select what we can manage: images, volumes, networks, containers, etc. In the next section we'll explore each tab a little bit more:
+
+![/images/6](/images/6)
+
 <a name="control"></a>
 ## Portainer's Control Panel
+
+In this section we're going to explore the most useful portainer's tab. To begin, we just have to select one element from the list to the left:
+
+![/images/7](/images/7)
+
+1.- Dashboad
+
+![/images/8](/images/8)
+
+Here we have a Docker's objects summary. We can easily see how many stacks, volumes, images, containers and network we have.
+
+2.- App Templates
+
+![/images/9](/images/9)
+
+In this tab we have the aplication templates list where we can quickly deploy containers using images from here. We have databases, CMS backups, etc. We also have the option to create our own templates! If the select one we'll see that we just have to select its name and network and then our new container'll be ready to be created:
+
+![/images/9.1.png](/images/9.1.png)
+
+3.- Containers
+
+![/images/10](/images/10)
+
+This tab contains a list with all our containers, we can see their status, some quick actions we can perfom (see their logs, or read more about them), their stack, the image they were created with, when they were created, their open ports and their user. 
+
+4.- Images
+
+![/images/11](/images/11)
+
+As you can see, in the images tab there's a list with all our images. We also have the option to pull images, we just have to write their registry and name!
+
+5.- Networks
+
+
+
+6.- Volumes
+
 
 <a name="sample"></a>
 ## Let's deploy a sample container
