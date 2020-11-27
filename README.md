@@ -32,6 +32,5 @@ Warning: Portainer supports the Current Docker version and two prior versions ON
 
 
 ## References
-- [ortainer.readthedocs.io](https://portainer.readthedocs.io/en/stable/deployment.html)
-- [portainer.io](https://www.portainer.io/)
+- [Portainer's Official Webpage](https://www.portainer.io/)
 - [Github Official Portainer Repository](https://github.com/portainer/portainer)
