@@ -9,6 +9,6 @@ Portainer is built to run on Docker and is really simple to deploy. Portainer de
 Warning: Portainer supports the Current Docker version and two prior versions ONLY. Older versions may run, but are not supported in any way.
 
 ## References:
-[ortainer.readthedocs.io](https://portainer.readthedocs.io/en/stable/deployment.html)
-[portainer.io](https://www.portainer.io/)
-[Github Official Portainer Repository](https://github.com/portainer/portainer)
+- [ortainer.readthedocs.io](https://portainer.readthedocs.io/en/stable/deployment.html)
+- [portainer.io](https://www.portainer.io/)
+- [Github Official Portainer Repository](https://github.com/portainer/portainer)
