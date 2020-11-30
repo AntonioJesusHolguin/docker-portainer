@@ -135,8 +135,20 @@ Now that we know what we can do in portainer, it's about time to put it on a tes
 
 ### Customizing our webpage
 
+Well, now you have a nice web server in a container. But, why not go a step further? Let's customize our new webpage!
+
+1.-
+
+2.-
+
+3.-
+
+4.-
+
 <a name="conclusion"></a>
 ## Conclusion
+
+Portainer is a very powerful tool that let us do everything we usually do though console commands with an easy to use webpage. After trying it a bit I can safely say that if you're working with many containers, volumes and networks, portainer'll make your life a little bit easier. So... You better have a good reason to not use portainer, because I have none! 
 
 <a name="references"></a>
 ## References
