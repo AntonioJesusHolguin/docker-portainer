@@ -137,13 +137,18 @@ Now that we know what we can do in portainer, it's about time to put it on a tes
 
 Well, now you have a nice web server in a container. But, why not go a step further? Let's customize our new webpage!
 
-1.-
+1.- Let's select the httpd container in the container list and then click con "console":
 
-2.-
+![/images/19](/images/19)
 
-3.-
+2.- The path to edit the index.html is /usr/local/apache2/htdocs/index.html. Try to insert some text with echo command:
 
-4.-
+![/images/20](/images/20)
+
+3.- Time to see if it worked. Go to localhost:8082 and check if the new text is there:
+
+![/images/21](/images/21)
+
 
 <a name="conclusion"></a>
 ## Conclusion
