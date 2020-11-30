@@ -95,10 +95,15 @@ As you can see, in the images tab there's a list with all our images. We also ha
 
 5.- Networks
 
+![/images/12](/images/12)
 
+Here we have a list with all our networks. There's important info about them like the subnet and gateway We can see we have the defaults networks, and we can add more or remove them.
 
 6.- Volumes
 
+![/images/13](/images/13)
+
+In the volumes tab we have more or less the same thing than in the networks tab. We have a list with all the volumes, we can see their path, ownership and when they were created. We can add and remove volumes too.
 
 <a name="sample"></a>
 ## Let's deploy a sample container
@@ -106,7 +111,27 @@ As you can see, in the images tab there's a list with all our images. We also ha
 - Image: httpd
 - Port: 8082
 
+Now that we know what we can do in portainer, it's about time to put it on a test and see how it works! Let's create a container with the image httpd and let's open the port 8082 so we can make sure everything is working correctly:
 
+1.- Let's start by searching for an httpd image in the templates tab:
+
+![/images/14](/images/14)
+
+2.- Now we're going to select it and give it a name:
+
+![/images/15](/images/15)
+
+3.- Before we create it, we have to remember to assign the port 8082 to it, so we can check it later. Once you've done that, click "Deploy the container"
+
+![/images/16](/images/16)
+
+4.- Wait for it and... you'll see our new container in the container list:
+
+![/images/17](/images/17)
+
+5.- Let's try to access the container though localhost:8082, if you did everything as I did, you'll see this!:
+
+![/images/18](/images/18)
 
 ### Customizing our webpage
 
